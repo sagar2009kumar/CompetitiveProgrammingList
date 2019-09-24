@@ -26,7 +26,7 @@ int SC[MAXN];         // special cost or cost related to the special child
 int depth[MAXN];      // depth of the given node
 vector<int> adj[MAXN];// graph containing the adjacency list
 vector<int> cost[MAXN];// cost of the edge of the graph
-int pa[MAXLN][N];    // to get the lca of the two node by dynamic programming
+int pa[MAXLN][MAXN];    // to get the lca of the two node by dynamic programming
                      // if necessary
 
 // helper function to print the array
